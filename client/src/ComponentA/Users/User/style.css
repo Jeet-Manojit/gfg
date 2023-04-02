@@ -1,0 +1,26 @@
+.user{ 
+    margin-bottom: 10px;
+    /* border-radius: 10px; */
+    box-shadow: gray 10px 10px 10px 2px;
+    
+}
+
+.user-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile{
+    margin-right: 20px;
+    border-radius: 20%;
+    border-bottom: groove;
+}
+
+@media only screen and (max-width: 576px) {
+    .user{
+        min-width: 330px !important;
+        max-width: 350px;
+        margin-left: 10px;
+    }
+}
