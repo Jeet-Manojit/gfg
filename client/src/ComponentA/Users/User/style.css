@@ -19,7 +19,7 @@
 
 @media only screen and (max-width: 576px) {
     .user{
-        min-width: 330px !important;
+        min-width: 3300px !important;
         max-width: 350px;
         margin-left: 10px;
     }
